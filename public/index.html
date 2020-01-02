@@ -2,35 +2,94 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
-    <link rel="stylesheet" href="/public/styles.css">
-    <title>Game</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
+  <link rel="stylesheet" href="/public/styles.css">
+  <title>Pella
+  </title>
 </head>
 
 <body>
-    
-    <div class="jumbotron">
-        <h1 class="display-4">Hello, world!</h1>
-        <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to
-            featured content or information.</p>
-        <hr class="my-4">
-        <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
-        <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
-    </div>
+  <nav class="navbar navbar-expand-lg navbar-light bg-success">
+    <a class="navbar-brand nav-name" href="#">Pella s</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
 
-    <div class="game">
-        <iframe src="https://www.crazygames.com/gameframe/run-3?v1" width="800" height="645" marginwidth="0"
-            marginheight="0" hspace="0" vspace="0" frameborder="0" scrolling="no" webkitallowfullscreen="true"
-            mozallowfullscreen="true" msallowfullscreen="true" allowfullscreen="true"></iframe>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Link</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+            aria-haspopup="true" aria-expanded="false">
+            More
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="#">Action</a>
+            <a class="dropdown-item" href="#">Another action</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#">Something else here</a>
+          </div>
+        </li>
+      </ul>
+      <form class="form-inline my-2 my-lg-0">
+        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+      </form>
     </div>
+  </nav>
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/js/bootstrap.min.js"></script>
+  <!-- *Game Section -->
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-sm-6 col-md-4 col-lg-3 card">
+        <img src="/public/images/download.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <p class="card-text">Run 3</p>
+          <a href="/public/games/run3.html">
+            <button id="0" class="btn btn-lg btn-primary" type="submit" value="src">Play</button>
+          </a>
+        </div>
+      </div>
+      <div class="col-sm-6 col-md-4 col-lg-3 card ">
+        <img src="/public/images/maxresdefault.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <p class="card-text">Sword and Souls</p>
+        </div>
+      </div>
+      <div class="col-sm-6 col-md-4 col-lg-3 card ">
+        <img src="/public/images/Jacksmith.webp" class="card-img-top" alt="...">
+        <div class="card-body">
+          <p class="card-text">JackSmith</p>
+        </div>
+      </div>
+      <div class="col-sm-6 col-md-4 col-lg-3 card ">
+        <img src="/public/images/PapasScoop.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <p class="card-text">Papas Scooperia</p>
+        </div>
+      </div>
+      <div class="col-sm-6 col-md-4 col-lg-3 card ">
+        <img src="/public/images/run3b.jpeg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <p class="card-text">Basketball Stars</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/js/bootstrap.min.js"></script>
+  <!-- <script src="/public/index.js"></script> -->
 </body>
 
 </html>

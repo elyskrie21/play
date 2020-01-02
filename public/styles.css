@@ -1,4 +1,28 @@
-.game {
-    margin: auto;
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.container-fluid {
     text-align: center;
+}
+
+/* *Navbar sections styles */
+
+.nav-name {
+    font-size: 2rem;
+    background: -webkit-linear-gradient(green, black);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+/* *GAMES */
+
+/* .games{
+    width: 80vw;
+} */
+
+.card {
+    margin-top: 5px;
+    padding: 10px;
 }
