@@ -1,6 +1,7 @@
 body {
     margin: 0;
     padding: 0;
+    text-align: center;
 }
 
 .container-fluid {
@@ -30,4 +31,9 @@ body {
 .card img {
     max-height: 150px;
     width: auto;
+}
+
+iframe {
+    height: 70vh;
+    width: 56.45vw;
 }
