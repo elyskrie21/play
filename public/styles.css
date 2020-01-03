@@ -2,6 +2,7 @@ body {
     margin: 0;
     padding: 0;
     text-align: center;
+    height: fit-content;
 }
 
 .container-fluid {
@@ -37,3 +38,6 @@ iframe {
     height: 100vh;
     width: 80.645vw;
 }
+
+
+/* *Footer */ 
