@@ -5,6 +5,7 @@ body {
     padding: 0;
     text-align: center;
     height: fit-content;
+    background-color: green;
 }
 
 .container-fluid {
@@ -25,6 +26,7 @@ body {
 .card {
     margin-top: 15px;
     padding: 0;
+    border: 5px solid green;
 }
 
 .card img {
