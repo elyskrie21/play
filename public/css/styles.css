@@ -4,11 +4,12 @@ body {
     margin: 0;
     padding: 0;
     height: fit-content;
-    background: -webkit-linear-gradient(green, black);
+    background-color: green;
+    text-align: center;
 }
 
 h1 {
-    columns: black;
+    color: black;
     font-weight: 900;
 }
 
@@ -61,7 +62,7 @@ iframe {
 }
 
 .game-header{
-    margin: 15px auto;
-    text-align: center;
-    background-color: white;
+    display: inline-block; 
+    border: 3px solid black;
+    margin: 20px; 
 }
