@@ -3,9 +3,13 @@
 body {
     margin: 0;
     padding: 0;
-    text-align: center;
     height: fit-content;
-    background-color: green;
+    background: -webkit-linear-gradient(green, black);
+}
+
+h1 {
+    columns: black;
+    font-weight: 900;
 }
 
 .container-fluid {
@@ -39,5 +43,25 @@ iframe {
     width: 80.645vw;
 }
 
+.game-message {
+    text-align: center;
+}
 
 /* *Footer */ 
+
+.view-games{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.view-games .card {
+    text-align: center;
+    border: none;
+}
+
+.game-header{
+    margin: 15px auto;
+    text-align: center;
+    background-color: white;
+}

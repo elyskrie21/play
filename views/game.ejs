@@ -1,7 +1,64 @@
 <%- include("header") -%>
+<div>
+    <iframe src=<%= gameSrc %> width="900" height="545" marginwidth="0" marginheight="0" hspace="0" vspace="0"
+        frameborder="0" scrolling="no" webkitallowfullscreen="true" mozallowfullscreen="true" msallowfullscreen="true"
+        allowfullscreen="true"></iframe>
+</div>
 
-<iframe src=<%= gameSrc %> width="900" height="545" marginwidth="0"
-        marginheight="0" hspace="0" vspace="0" frameborder="0" scrolling="no" webkitallowfullscreen="true"
-        mozallowfullscreen="true" msallowfullscreen="true" allowfullscreen="true"></iframe>
+<div class="game-header">
+    <h1>Other Games!</h1>
+</div>
+
+<div class="view-games">
+
+    <div class="card">
+        <img src="images/download.png" class="card-img-top" alt="..." />
+        <div class="card-body">
+            <h2 class="card-text">Run 3</h2>
+            <form action="/game" method="POST">
+                <button class="btn btn-lg btn-dark" name="button" value="0">
+                    Play
+                </button>
+            </form>
+        </div>
+    </div>
+
+    <div class="card">
+        <img src="images/maxresdefault.jpg" class="card-img-top" alt="..." />
+        <div class="card-body">
+            <h2 class="card-text">Sword and Souls</h2>
+            <form action="/game" method="POST">
+                <button class="btn btn-lg btn-dark" name="button" value="1">
+                    Play
+                </button>
+            </form>
+        </div>
+    </div>
+
+    <div class="card">
+        <img src="images/Jacksmith.webp" class="card-img-top" alt="..." />
+        <div class="card-body">
+            <h2 class="card-text">JackSmith</h2>
+            <form action="/game" method="POST">
+                <button class="btn btn-lg btn-dark" name="button" value="2">
+                    Play
+                </button>
+            </form>
+        </div>
+    </div>
+
+    <div class="card">
+        <img src="images/PapasScoop.jpg" class="card-img-top" alt="..." />
+        <div class="card-body">
+            <h2 class="card-text">Papas Scooperia</h2>
+            <form action="/game" method="POST">
+                <button class="btn btn-lg btn-dark" name="button" value="3">
+                    Play
+                </button>
+            </form>
+        </div>
+    </div>
+
+</div>
 
 <%- include("footer") -%>
