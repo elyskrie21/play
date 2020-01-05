@@ -1,3 +1,5 @@
+/**Global values */
+
 body {
     margin: 0;
     padding: 0;
@@ -19,10 +21,6 @@ body {
 }
 
 /* *GAMES */
-
-/* .games{
-    width: 80vw;
-} */
 
 .card {
     margin-top: 15px;
