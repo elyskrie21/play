@@ -8,7 +8,7 @@ body {
     text-align: center;
 }
 
-h1 {
+h1, p {
     color: black;
     font-weight: 900;
 }
@@ -46,6 +46,13 @@ iframe {
 
 .game-message {
     text-align: center;
+}
+
+.back-btn {
+    position: fixed;
+    top: 0;
+    left: 0;
+    min-width: 100px;
 }
 
 /* *Footer */ 

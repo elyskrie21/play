@@ -15,21 +15,21 @@ var port = process.env.PORT || 3000;
 app.use(express.static("public"));
 app.use(express.urlencoded({ extended: true }));
 
-app.get("/", function(req, res) {
+app.get("/", function (req, res) {
   res.render("index");
 });
 
-app.listen(port, function(req, res) {
+app.listen(port, function (req, res) {
   console.log("Listening to port " + port);
 });
 
-app.post("/game", function(req, res) {
+app.post("/game", function (req, res) {
   id = req.body.button;
-  console.log(id); 
+  console.log(id);
   res.redirect("/game");
 });
 
-app.get("/game", function(req, res) {
+app.get("/game", function (req, res) {
   console.log(id);
   res.render("game", { gameSrc: src.getSrc(id) });
 });
